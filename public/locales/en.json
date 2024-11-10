@@ -1,0 +1,13 @@
+{
+	"home": {
+		"title": "Home",
+		"subtitle": "Subtitle",
+		"text": "Home text"
+	},
+	"change": {
+		"lang": {
+			"es": "change to spanish",
+			"en": "change to english"
+		}
+	}
+}

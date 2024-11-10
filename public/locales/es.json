@@ -1,0 +1,13 @@
+{
+	"home": {
+		"title": "inicio",
+		"subtitle": "subtitulo",
+		"text": "texto"
+	},
+	"change": {
+		"lang": {
+			"es": "cambiar a español",
+			"en": "cambiar a ingles"
+		}
+	}
+}
