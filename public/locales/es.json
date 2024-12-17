@@ -1,13 +1,11 @@
 {
-	"home": {
-		"title": "inicio",
-		"subtitle": "subtitulo",
-		"text": "texto"
+	"main_layout": {
+		"title": "Plantilla de aplicación Express"
 	},
-	"change": {
-		"lang": {
-			"es": "cambiar a español",
-			"en": "cambiar a ingles"
-		}
+	"home_page": {
+		"name": "Inicio"
+	},
+	"components_page": {
+		"name": "Componentes"
 	}
 }

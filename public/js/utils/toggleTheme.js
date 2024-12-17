@@ -30,12 +30,14 @@ function setLightTheme() {
     html.classList.remove("dark");
     html.classList.add("light");
     localStorage.setItem("theme", "light");
+    window.dispatchEvent(new CustomEvent("theme-change", { detail: "light" }));
 }
 
 function setDarkTheme() {
     html.classList.remove("light");
     html.classList.add("dark");
     localStorage.setItem("theme", "dark");
+    window.dispatchEvent(new CustomEvent("theme-change", { detail: "dark" }));
 }
 
 getDefaultUserTheme();

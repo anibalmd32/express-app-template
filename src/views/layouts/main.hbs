@@ -6,8 +6,19 @@
     <title>App</title>
     <link rel="stylesheet" href="css/output.css">
 </head>
-<body>
-    <main>
+<body class="bg-gray-100 dark:bg-zinc-900">
+    <main class="container mt-4 mx-auto">
+        <header class="flex justify-between items-center">
+            <h1 class="title">{{__ "main_layout.title"}}</h1>
+
+            <div class="flex gap-4 items-center">
+                {{> shared/toggleTheme }}
+                {{> shared/toggleLang }}
+            </div>
+        </header>
+
+        {{> shared/navigation }}
+
         {{{ body }}}
     </main>
 

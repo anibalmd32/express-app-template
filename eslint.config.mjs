@@ -16,7 +16,7 @@ export default [
             "comma-dangle": ["error", "always-multiline"],
             semi: ["error", "always"],
             "no-unused-vars": "error",
-            "max-len": ["error", { code: 76, ignoreUrls: true }],
+            // "max-len": ["error", { code: 76, ignoreUrls: true }],
             indent: ["error", 4],
         },
     },

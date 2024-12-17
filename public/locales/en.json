@@ -1,13 +1,11 @@
 {
-	"home": {
-		"title": "Home",
-		"subtitle": "Subtitle",
-		"text": "Home text"
+	"main_layout": {
+		"title": "Express App Template"
 	},
-	"change": {
-		"lang": {
-			"es": "change to spanish",
-			"en": "change to english"
-		}
+	"home_page": {
+		"name": "Home"
+	},
+	"components_page": {
+		"name": "Components"
 	}
 }

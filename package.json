@@ -8,7 +8,7 @@
     "dev": "ts-node-dev --respawn --transpile-only src/index.ts",
     "build": "tsc",
     "start": "node dist/index.js",
-    "styles:watch": "pnpm tailwindcss -i ./public/css/input.css -o ./public/css/output.css --watch",
+    "styles:watch": "bun tailwindcss -i ./public/css/input.css -o ./public/css/output.css --watch",
     "docker:build-prod": "",
     "docker:build-dev": "",
     "db:migrate": "pnpm prisma migrate dev",
